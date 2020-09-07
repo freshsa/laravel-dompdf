@@ -9,10 +9,17 @@
             "email": "barryvdh@gmail.com"
         }
     ],
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/freshsa/dompdf"
+        }
+    ],
     "require": {
         "php": ">=7",
         "illuminate/support": "^5.5|^6|^7",
-        "dompdf/dompdf": "^0.8"
+        "dompdf/dompdf": "fresh-fix"
     },
 
     "autoload": {
